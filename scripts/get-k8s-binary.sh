@@ -12,7 +12,7 @@
 
 set -e
 
-BASE_URL=https://dl.k8s.io/release/
+BASE_URL=https://dl.k8s.io/release
 
 function _main() {
     if [ $# -ne 3 ]; then
